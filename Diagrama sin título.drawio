@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T16:03:17.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5xiQjh9LtCtz8o9BCVyk" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T16:12:16.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="40_OeIfCYTFVbGy7JHr0" version="20.8.18" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
         <mxCell id="1c1d494c118603dd-19" value="Solicita&lt;br&gt;modificar parámetros" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1c1d494c118603dd-4" vertex="1">
           <mxGeometry x="500" y="760" width="100" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="60571a20871a0731-5" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1c1d494c118603dd-4" vertex="1">
+        <mxCell id="60571a20871a0731-5" value="Fin del uso" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1c1d494c118603dd-4" vertex="1">
           <mxGeometry x="296" y="870" width="97" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-20" value="No hay solicitudes&lt;br&gt;ni consultas" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" parent="1c1d494c118603dd-4" vertex="1">
@@ -98,7 +98,7 @@
         <mxCell id="nHkik7Opn4sEwekboTcB-27" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="1c1d494c118603dd-4">
           <mxGeometry x="67" y="160" width="200" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="nHkik7Opn4sEwekboTcB-33" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.479;exitY=0.189;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1c1d494c118603dd-4" source="nHkik7Opn4sEwekboTcB-39">
+        <mxCell id="nHkik7Opn4sEwekboTcB-33" value="Remite documento&lt;br&gt;para firma digital" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.479;exitY=0.189;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1c1d494c118603dd-4" source="nHkik7Opn4sEwekboTcB-39">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="383" as="sourcePoint" />
             <mxPoint x="260" y="500" as="targetPoint" />
@@ -151,13 +151,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nHkik7Opn4sEwekboTcB-42" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0;entryY=0;entryDx=105;entryDy=37.5;entryPerimeter=0;exitX=0.761;exitY=0.144;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1c1d494c118603dd-4" source="nHkik7Opn4sEwekboTcB-39" target="1c1d494c118603dd-22">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="nHkik7Opn4sEwekboTcB-42" value="Devuelve&lt;br&gt;Documentos&lt;br&gt;con firma&lt;br&gt;Digital" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.9;entryY=1.06;entryDx=0;entryDy=0;exitX=0.507;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1c1d494c118603dd-4" source="nHkik7Opn4sEwekboTcB-39" target="nHkik7Opn4sEwekboTcB-81">
+          <mxGeometry x="0.438" relative="1" as="geometry">
             <mxPoint x="550" y="493" as="targetPoint" />
             <mxPoint x="455" y="493" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="530" y="440" />
+              <mxPoint x="310" y="760" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nHkik7Opn4sEwekboTcB-44" value="&lt;br&gt;Firma documentos digitalmente" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1c1d494c118603dd-4">
@@ -197,7 +198,19 @@
           <mxGeometry x="587" y="310" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nHkik7Opn4sEwekboTcB-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1c1d494c118603dd-4" source="nHkik7Opn4sEwekboTcB-70" target="1c1d494c118603dd-19">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHkik7Opn4sEwekboTcB-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-4" source="nHkik7Opn4sEwekboTcB-73" target="60571a20871a0731-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="915" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="nHkik7Opn4sEwekboTcB-73" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Reportes&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Activos y Pasivos de las&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;empresas&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Saldos y flujos de IED&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Pasivos y activos&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Saldos y flujos de Dexpri&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Pasivos y activos&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Transferencias al exterior&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;relacionadas con IED&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Aportes de inversión&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Comercio de Servicios&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Perspectivas&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Lista de certificados&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;de IED emitidos&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;-&amp;nbsp;Lista de certificados&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;de Dexpri emitidos&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1c1d494c118603dd-4">
           <mxGeometry x="580" y="490" width="160" height="250" as="geometry" />
@@ -226,7 +239,7 @@
         <mxCell id="nHkik7Opn4sEwekboTcB-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1c1d494c118603dd-4" source="nHkik7Opn4sEwekboTcB-81" target="nHkik7Opn4sEwekboTcB-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nHkik7Opn4sEwekboTcB-81" value="Módulo 2&#xa;Externo" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1c1d494c118603dd-4">
+        <mxCell id="nHkik7Opn4sEwekboTcB-81" value="Módulo 1&#xa;Externo" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1c1d494c118603dd-4">
           <mxGeometry x="50" y="630" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nHkik7Opn4sEwekboTcB-87" value="correo electrónico&lt;br&gt;de notificación" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1c1d494c118603dd-4">
